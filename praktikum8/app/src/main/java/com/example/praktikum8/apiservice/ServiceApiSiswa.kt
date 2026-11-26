@@ -10,6 +10,6 @@ interface ServiceApiSiswa {
     suspend fun getSiswa(): List<DataSiswa>
 
     @POST("insertTM.php")
-    suspend fun  postSoswa(@Body dataSiswa: DataSiswa): retrofit2
+    suspend fun  postSiswa(@Body dataSiswa: DataSiswa): retrofit2
         .Response<Void>
 }
