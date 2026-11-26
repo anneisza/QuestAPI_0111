@@ -1,5 +1,5 @@
 <?php
-	include_once "koneksi.php";
+	include_once "api-php/koneksi.php";
 
 
 	$result	= mysqli_query($koneksi,"SELECT * FROM teman order by nama");
